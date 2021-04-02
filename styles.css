@@ -88,6 +88,28 @@ body{
 	margin-bottom: 2px;
 }
 
+.resume_wrapper .resume_left .resume_skills .skills_list{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+
+.resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p{
+	position: relative;
+	width: 125px;
+    height: 20px;
+    background: #fff;
+}
+
+.resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p span{	
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #0175b2;
+	width: 100%;
+	height: 100%;
+}
+
 .resume_wrapper .resume_right{
 	width: 65%;
 	padding: 20px 40px;
@@ -164,6 +186,12 @@ body{
 
 
 @media screen and (max-width: 800px){
+	.resume_wrapper .resume_right .resume_namerole{
+		display: none;
+	}
+	.resume_wrapper .resume_left .resume_namerole{
+		display: block;
+	}
 	.resume_wrapper{
 		width: 95%;
 		margin: 10px auto;
@@ -195,5 +223,8 @@ body{
 	.resume_wrapper .resume_right .resume_data .content{
 		width: 100%;
 		padding: 0;
+	}
+	.resume_wrapper .resume_right .resmue_interests .interests .int_icon{
+		font-size: 24px;
 	}
 }
