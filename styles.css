@@ -135,8 +135,8 @@ body{
 }
 
 .resume_wrapper .resume_right .resume_data .year{
-	padding-right: 35px;
-	width: 115px;
+	padding-right: 15px;
+	width: 155px;
 	position: relative;
 }
 
@@ -182,6 +182,17 @@ body{
 	font-size: 38px;
 	color: #0175b2;
 	margin-bottom: 10px;
+}
+.white-font {
+    color: white;
+  }
+
+  .table-white-border {
+    display: block;
+	/* border: 1px solid #0175b2; */
+	width: 100%;
+	color: #84838b;
+	text-align: center;
 }
 
 
